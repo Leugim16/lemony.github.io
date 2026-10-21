@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101018">
+  <meta name="description" content="La Sabiduría de RAID: builds, campeones y recomendaciones de la comunidad.">
+  <title>La Sabiduría de RAID</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="La Sabiduría de RAID, inicio">
+      <span class="brand-mark">✦</span><span>LA SABIDURÍA <i>DE RAID</i></span>
+    </a>
+    <nav><a href="#campeones">Campeones</a><a href="#como-usar">Cómo usar</a><a href="https://discord.com/" target="_blank" rel="noreferrer">Discord ↗</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ENCICLOPEDIA DE LA COMUNIDAD</p>
+        <h1>Forja tu<br><span>mejor equipo.</span></h1>
+        <p class="hero-intro">Guías de campeones, builds y experiencia real. Encuentra una configuración, entiende por qué funciona y adapta cada pieza a tu cuenta.</p>
+        <a class="button button-gold" href="#campeones">Explorar campeones <span>↓</span></a>
+        <p class="disclaimer">Proyecto de fans no oficial. No afiliado a Plarium.</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de fantasía">
+        <div class="rune rune-one">✧</div><div class="rune rune-two">✦</div>
+        <div class="sigil"><span>R</span></div>
+        <div class="hero-caption"><span>ARCHIVO DE TÁELERIA</span><b>CONOCIMIENTO · ESTRATEGIA · COMUNIDAD</b></div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Contenido de la enciclopedia">
+      <div><b>BUILDS</b><span>Sets y estadísticas</span></div>
+      <div><b>MAESTRÍAS</b><span>Rutas y prioridades</span></div>
+      <div><b>ESTRATEGIA</b><span>Contenido PvE y PvP</span></div>
+      <div><b>TU EXPERIENCIA</b><span>Notas de la comunidad</span></div>
+    </section>
+
+    <section class="section" id="campeones">
+      <div class="section-heading">
+        <div><p class="eyebrow">EL ARCHIVO</p><h2>Campeones destacados</h2></div>
+        <span class="result-count" id="result-count">3 fichas de ejemplo</span>
+      </div>
+      <div class="filters">
+        <label class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar campeón..." autocomplete="off"></label>
+        <select id="role-filter" aria-label="Filtrar por función">
+          <option value="">Todas las funciones</option><option>Apoyo</option><option>Daño</option><option>Control</option><option>Progresión</option>
+        </select>
+        <select id="content-filter" aria-label="Filtrar por contenido">
+          <option value="">Todo el contenido</option><option>Arena</option><option>PvE</option><option>Jefe de Clan</option><option>Hydra</option>
+        </select>
+      </div>
+      <div class="champion-grid" id="champion-grid" aria-live="polite"></div>
+      <p class="small-note">Las fichas iniciales son ejemplos de estructura, no builds universales. Ajusta las recomendaciones a tu cuenta y al contenido.</p>
+    </section>
+
+    <section class="section knowledge-section" id="como-usar">
+      <p class="eyebrow">DE JUGADORES PARA JUGADORES</p>
+      <h2>La build es el comienzo.<br><span>El conocimiento marca la diferencia.</span></h2>
+      <div class="knowledge-grid">
+        <article><span class="number">01</span><h3>Entiende el objetivo</h3><p>Define el contenido y el papel del campeón antes de elegir sets.</p></article>
+        <article><span class="number">02</span><h3>Prioriza estadísticas</h3><p>Usa objetivos realistas para tu cuenta; las cifras ideales varían según el equipo y el modo.</p></article>
+        <article><span class="number">03</span><h3>Comparte experiencia</h3><p>Registra pruebas, alternativas y cambios que te hayan funcionado.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="./"><span class="brand-mark">✦</span><span>LA SABIDURÍA <i>DE RAID</i></span></a><p>Proyecto comunitario no oficial. RAID: Shadow Legends es propiedad de sus respectivos titulares.</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
